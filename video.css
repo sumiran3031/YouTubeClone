@@ -1,0 +1,61 @@
+.video-grid {
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    column-gap: 16px;
+    row-gap: 40px;
+    padding: 24px; 
+}
+
+.container {
+    width: 100%; 
+}
+
+.image {
+    width: 100%;
+    aspect-ratio: 16 / 9; 
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.chprofile {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    column-gap: 12px;
+    margin-top: 12px;
+}
+
+.profile {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.textp1 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.author, .view {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+
+@media (max-width: 500px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+        padding: 10px 0px;
+    }
+    .image {
+        border-radius: 0;
+    }
+    body {
+        padding-left: 0; 
+    }
+    .sidebar {
+        display: none;
+    }
+}
