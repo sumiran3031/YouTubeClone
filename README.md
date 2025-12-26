@@ -17,27 +17,44 @@ Clean Typography: Uses the Roboto font family for a clean, professional look (ge
 
 
 💻 Technologies Used
+
 HTML5
+
 CSS3:
+
 CSS Grid
+
 Flexbox
+
 Media Queries
+
 🛠️ Getting Started
+
 To view the project, clone this repository and open the index.html file in your web browser.
 Prerequisites
+
 A modern web browser.
+
 Installation
+
 Clone the repository:
+
 bash
+
 git clone github.com
+
 Use code with caution.
 
 Navigate to the project folder:
+
 bash
+
 cd YouTubeClone
+
 Use code with caution.
 
 💡 Usage
 Simply open the main index.html file in your browser to interact with the styled interface.
+
 🤝 Contributing
 This is a design-focused project, but contributions to improve styling, accessibility, or add functionality are welcome!
