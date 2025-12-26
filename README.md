@@ -54,7 +54,7 @@ cd YouTubeClone
 Use code with caution.
 
 💡 Usage
-Simply open the main index.html file in your browser to interact with the styled interface.
+Simply open the main youtubeclone.html file in your browser to interact with the styled interface.
 
 🤝 Contributing
 This is a design-focused project, but contributions to improve styling, accessibility, or add functionality are welcome!
